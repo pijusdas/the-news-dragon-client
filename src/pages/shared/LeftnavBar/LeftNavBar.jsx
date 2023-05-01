@@ -6,7 +6,7 @@ const LeftNavBar = () => {
 
 
     useEffect(()=>{
-        fetch('http://localhost:5000/categories')
+        fetch('https://the-news-dragon-server-pijusdas.vercel.app/categories')
         .then(res=> res.json())
         .then(data=> setCategories(data))
     },[])
