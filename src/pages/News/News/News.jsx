@@ -5,7 +5,8 @@ import EditorInsigth from '../EditorInsigth/EditorInsigth';
 
 const News = () => {
     const news = useLoaderData()
-    const { _id, title, details, image_url,category_id } = news
+
+    const { _id, title, details, image_url,category_id } = news;
 
     return (
        <div>
